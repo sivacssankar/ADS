@@ -60,7 +60,7 @@ else
 {
 dis.parent[sety]=setx;
 dis.rank[setx]+=1;
-dis.parent[sety]=-1;
+dis.rank[sety]=-1;
 }
 }
 void main()
